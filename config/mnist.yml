@@ -1,0 +1,13 @@
+# MIA config
+n_shadows: 257
+seed: 42
+model_type: "resnet"
+# path config
+data_dir: "/path/to/your/datasets"
+# IMIA hyperparameters
+margin_weight: 1.0
+warmup_epochs: 50
+temperature: 1.0
+n_queries: 1
+# env
+n_gpus: 12

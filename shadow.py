@@ -34,11 +34,11 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("mp
 
 def acc_rule(args):
     if args.dataset == "cifar10":
-        args.imitate_acc = 0.6
+        return 0.6
     elif args.dataset == "cifar100":
-        args.imitate_acc = 0.4
+        return 0.4
     elif args.dataset == "mnist" or args.dataset == "fmnist":
-        args.imitate_acc = 0.8
+        return 0.8
     else:
         raise ValueError(f"Dataset {args.dataset} not supported")
 

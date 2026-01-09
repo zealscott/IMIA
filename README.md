@@ -1,4 +1,4 @@
-# IMIA: Imitative Membership Inference Attack
+# IMIA: Imitative Membership Inference Attack (USENIX Security'26)
 
 This repository implements the **Imitative Membership Inference Attack (IMIA)**. It supports both adaptive and non-adaptive attack settings.
 
@@ -155,6 +155,20 @@ The framework evaluates attacks using multiple metrics:
   - TPR@0.1%FPR
   - TPR@0.01%FPR
   - TPR@0.001%FPR (equivalent to TPR@0%FPR for evaluated datasets)
+
+
+## Citation
+
+Please cite our paper if our work is useful for your research:
+
+```bibtex
+@inproceedings{du2026imitative,
+  title={Imitative Membership Inference Attack},
+  author={Du, Yuntao and Chen, Yuetian and Xiao, Hanshen and Ribeiro, Bruno and Li, Ninghui},
+  booktitle={35th USENIX Security Symposium (USENIX Security 26)},
+  year={2026}
+}
+```
 
 ## Acknowledgements
 
